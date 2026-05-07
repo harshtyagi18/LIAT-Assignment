@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dubai Mall: Cinematic Sales Deck
 
-## Getting Started
+A $100M-grade cinematic digital experience designed for the Dubai Mall. This project prioritizes sophisticated scrolling orchestration, typography-led editorial design, and cohesive high-end visual pacing to create an immersive luxury narrative.
 
-First, run the development server:
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Project-gold?style=for-the-badge&logo=vercel)](https://dubai-mall-liat.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 💎 Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Animations**: [GSAP](https://greensock.com/gsap/) (ScrollTrigger, Flip) & [Framer Motion](https://www.framer.com/motion/)
+- **Smooth Scrolling**: [Lenis](https://github.com/darkroomengineering/lenis)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Typeface**: Premium Sans-Serif (Inter/Editorial focused)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎨 Design Decisions
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 1. Cinematic Orchestration
+The experience is built on a foundation of GSAP-powered scrolling. Each section is precisely timed to ensure that narrative elements reveal themselves in a choreographed sequence, mimicking the pacing of a high-end film trailer.
 
-## Learn More
+### 2. Editorial Typography
+We moved away from generic layouts to a typography-led design. Large, bold headlines serve as anchors for the narrative, ensuring clarity and impact while maintaining a "restrained luxury" aesthetic.
 
-To learn more about Next.js, take a look at the following resources:
+### 3. Visual Pacing
+By implementing "pinned" sections and extended hold durations, we eliminate text overlap and allow the user to absorb the scale of the Dubai Mall (100M+ visitors, 1,200+ stores) without feeling rushed.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 4. Interactive Continuity
+Transitions between sections (e.g., from Retail to Dining) are seamless, using smooth gradients and micro-animations to maintain immersion throughout the user journey.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Setup Instructions
 
-## Deploy on Vercel
+To run this project locally:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/harshtyagi18/LIAT-Assignment.git
+   cd LIAT-Assignment
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**:
+   ```bash
+   npm run build
+   ```
+
+## 🤖 AI Tools Used
+
+This project was developed with the assistance of **Antigravity**, a powerful agentic AI coding assistant by **Google Deepmind**. 
+
+Key AI contributions:
+- **GSAP Timeline Orchestration**: Complex sequencing for the pinned scroll sections.
+- **Responsive Logic**: Ensuring the editorial typography scales beautifully across all devices.
+- **Refactoring**: Streamlining the component architecture for maximum performance and maintainability.
+
+---
+
+*Designed for excellence. Built for the future.*
